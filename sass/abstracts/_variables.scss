@@ -1,0 +1,36 @@
+// Color Variable
+$color-primary-first: #3bc9db;
+$color-primary-second: #66d9e8;
+$color-primary-third: #99e9f2;
+$color-primary-fourth: #c5f6fa;
+$color-primary-fifth: #e3fafc;
+$color-primary-sixth: linear-gradient(
+  to right bottom,
+  $color-primary-fourth,
+  $color-primary-first
+);
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #67e24e;
+$color-tertiary-dark: #247e09;
+
+$color-gray-dark: #777;
+$color-gray-dark-1: #333;
+
+$color-gray-dark-2: #999; //grey
+
+$color-gray-light-1: #f7f7f7; //#eee
+
+$color-white: #fff;
+$color-black: #000;
+
+// Variables for width and height
+
+$grid-width: 1140px;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+$defualt-font-size: 1.6rem; // default
